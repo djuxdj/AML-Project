@@ -6,6 +6,10 @@ In order to extract audio features first download this file: [VGGish model check
 
 Then run gen_audioset_feature.py to obtain 128 dimensional embedding size for every 960ms
 
+Before running preprocessing download this files
+## Pretrained Models Required:
+* [ResNet50 pretrained on ImageNet [PyTorch version]](https://s3.amazonaws.com/pytorch/models/resnet50-19c8e357.pth)
+* [C3D pretrained on Sports1M [ported from Keras]](http://imagelab.ing.unimore.it/files/c3d_pytorch/c3d.pickle)
 Run preprocess_frames.py present in preprocess/train and preprocess/test directory. Similarly you can run preprocess/{test/train}/create_output_super.py to obtain segment wise labels and preprocess/{test/train}/create_output_ws.py to obtain per video labels.
 
 For running the models you can go into the respective model directory and directly run model.py file.
