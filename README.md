@@ -14,3 +14,5 @@ Before running preprocessing download this files
 
 * For running the models you can go into the respective model directory and directly run model.py file.
 
+* Similarly to run UCF-101 models, follow the same instructions as above. The model files are present in UCF-101-models directory
+
