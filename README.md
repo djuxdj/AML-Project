@@ -1,4 +1,4 @@
-# AML-Project
+# Multiclass Multilabel Untrimmed Video Event Detection (AML-Project)
 
 * You can download the dataset using downloader.py, it takes command line parameter as txt files that conatins YouTube video links and destination directory to store the downloaded videos
 
